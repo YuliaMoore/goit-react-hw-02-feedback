@@ -2,17 +2,10 @@ import React from 'react';
 
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101',
-      }}
-    >
-      React homework template
-    </div>
+    <Container>
+      <Section title="Please leave feedback">
+        <h2>Please leave feedback</h2>
+      </Section>
+    </Container>
   );
 };
